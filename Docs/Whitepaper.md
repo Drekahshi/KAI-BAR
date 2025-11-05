@@ -1,4 +1,4 @@
-# KAI WHITEPAPER (HEDERA EDITION)
+# KAI WHITEPAPER
 ## DeFi-Powered Financial Infrastructure for Africa's Economic Revolution
 
 ---
