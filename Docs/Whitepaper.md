@@ -53,9 +53,9 @@ With no tools to preserve or transfer wealth across generations, families remain
 
 ## ✅ 1. KAI-DeFi Investment Products
 
-### **YHT Multi-Strategy DeFi Vault**
+### **YToken Multi-Strategy DeFi Vault**
 
-- **Base Assets ETF (YHT-TOKEN)**: **BTC.HBAR liquidity pair** with automated rebalancing for inflation resistance.
+- **Base Assets ETF (Y-TOKEN)**: **BTC.HBAR liquidity pair** with automated rebalancing for inflation resistance.
 - **Asset Strategy**: Direct exposure to Hedera's native BTC.HBAR pool—the primary on-chain liquidity for Bitcoin on Hedera via Hashport bridge.
 - **DeFi Integration**: Aggregated yield farming across Hedera protocols (Pangolin, Hashport, other DEXs and lending platforms).
 - **Automated Optimization**: Smart contracts and agentic AI shift capital to the highest-yielding, lowest-risk opportunities, leveraging Hedera's deterministic ordering to eliminate MEV losses.
@@ -65,7 +65,7 @@ With no tools to preserve or transfer wealth across generations, families remain
 
 ---
 
-### **YGOLD-H BOND (Multi-Asset Yield Bond Vault)**
+### **YGOLD BOND (Multi-Asset Yield Bond Vault)**
 
 A tokenized, yield-bearing bond product designed to give African users secure exposure to a diversified basket of inflation-resistant and infrastructure-focused assets on Hedera.
 
@@ -159,7 +159,7 @@ A next-generation, algorithmic DeFi vault offering both stable savings and high-
 
 ---
 
-### **YBOB-H Algorithmic Stablecoin**
+### **YBOB Algorithmic Stablecoin**
 
 - **Stability Mechanism**: Algorithmic supply control + overcollateralization with USDC and BTC.HBAR LP reserves, governed by smart contracts on Hedera.
 - **Yield Integration**: Backing assets earn interest from BTC.HBAR LP fees and Hedera-based lending protocols.
@@ -292,10 +292,10 @@ KAI CENTS-H is a utility token designed for gas payments, micro-transactions, an
 
 | Token | Type | Supply | Primary Assets | DeFi Function |
 |-------|------|---------|---|---------------|
-| **YHT** | Multi-Strategy DeFi Vault | 2.1B | BTC.HBAR LP | Automated yield farming, rebalancing, LP fee generation |
-| **YBOB-H** | Algorithmic Stablecoin | Dynamic | USDC + BTC.HBAR LP | Stability + yield on backing assets |
-| **YGOLD-H** | Multi-Asset Yield Bond Vault | 8.4B | BTC.HBAR LP + Gold + Bonds | Automated yield farming + project yield sharing |
-| **KAI CENTS-H** | Gas + Prediction Utility | 1B | HBAR-pegged | Fee discounts, prediction utility, protocol governance |
+| **YT** | Multi-Strategy DeFi Vault | 2.1B | BTC.HBAR LP | Automated yield farming, rebalancing, LP fee generation |
+| **YBOB** | Algorithmic Stablecoin | Dynamic | USDC + BTC.HBAR LP | Stability + yield on backing assets |
+| **YGOLD** | Multi-Asset Yield Bond Vault | 8.4B | BTC.HBAR LP + Gold + Bonds | Automated yield farming + project yield sharing |
+| **KAI CENTS** | Gas + Prediction Utility | 1B | HBAR-pegged | Fee discounts, prediction utility, protocol governance |
 | **GAMI** | Social DeFi Mining | 10B | Multi-pair (BTC.HBAR primary) | Engagement rewards + creator pool yields |
 
 **Advanced DeFi Features**:
