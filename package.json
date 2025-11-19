@@ -1,0 +1,23 @@
+{
+  "name": "kai-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drekahshi/KAI-BAR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drekahshi/KAI-BAR/issues"
+  },
+  "homepage": "https://github.com/Drekahshi/KAI-BAR#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.77.0"
+  }
+}

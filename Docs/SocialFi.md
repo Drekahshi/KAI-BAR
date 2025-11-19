@@ -1,480 +1,12 @@
-│  ├─ Comments: 1 GAMI each (quality-scored by AI)
-│  └─ Bonus: +5x multiplier for substantive live engagement
-├─ Prize pool: 500 GAMI (creator's sponsorship budget)
-└─ Payout: Deterministic scoring on Hedera (no disputes)
-```
-
-**Automated Content Distribution** (N8N Workflows):
-```
-Creator workflow: "Multi-platform posting"
-├─ Step 1: Creator records video on device
-├─ Step 2: Video uploaded to IPFS (decentralized storage)
-├─ Step 3: N8N trigger: Post to YouTube (via API)
-├─ Step 4: N8N trigger: Post to TikTok (via API)
-├─ Step 5: N8N trigger: Post to Twitter/X (via API)
-├─ Step 6: N8N trigger: Create Kai SocialFi quest (auto-populate details)
-├─ Step 7: Hedera oracle: Monitor views across all platforms
-└─ Step 8: Auto-calculate rewards (aggregated earnings from all platforms)
-
-Result: Single upload → 5 platforms → Unified GAMI earnings
-Timeline: <1 minute to distribute everywhere
-```
-
-**Cross-Platform Analytics Dashboard**:
-```
-Creator analytics (unified view):
-├─ Total views: 150K (YouTube: 80K, TikTok: 50K, Twitter: 20K)
-├─ Total engagement: 5,000 interactions
-│  ├─ Likes: 2,000 (0.1 GAMI each)
-│  ├─ Comments: 1,500 (0.5 GAMI each)
-│  ├─ Shares: 500 (2 GAMI each)
-│  └─ Watch time: 2,500 hours (3 GAMI per 15 min)
-├─ Total GAMI earned: 7,500 GAMI (~$750 at $0.10/GAMI)
-├─ Creator share: 2,625 GAMI (35%, earned within 3-6 seconds)
-├─ Payout history: All transactions on Hedera ledger (transparent)
-└─ Revenue forecast: $7,500+ monthly at current growth
-
-Predictive analytics:
-├─ Trending topics: Which content types earn most
-├─ Optimal posting times: When audience most engaged
-├─ Audience demographics: Interest categories (health, fitness, education, etc.)
-├─ Competitor analysis: How you rank vs. other creators
-└─ Recommendation: "Health videos 2.3x higher engagement—consider focusing more"
-```
-
-**Tipping & Direct Support**:
-```
-Fan-to-Creator Direct Payment:
-├─ Fan sees creator video
-├─ Fan clicks "Send Tip" (in-app button)
-├─ Tip options: 1 GAMI, 5 GAMI, 10 GAMI, 50 GAMI, custom amount
-├─ Fan sends 10 GAMI directly to creator
-├─ Settlement: Deterministic Hedera transfer (3-6 seconds)
-├─ Creator receives: 10 GAMI + notification
-└─ Fan receives: Special "Supporter" badge (shows in comments)
-
-Creator Membership/Subscription:
-├─ Creator creates tier: "Premium access ($5/month in GAMI)"
-├─ Subscriber gets:
-│  ├─ Access to exclusive videos
-│  ├─ Early access to new content (24 hours early)
-│  ├─ Direct messaging with creator
-│  └─ Special comment badge ("Premium Supporter")
-├─ Creator earns: $5 per subscriber per month
-├─ Settlement: Monthly on first of month (Hedera atomic execution)
-└─ Expected: Top creators earn $50K–$500K/month from subscriptions
-```
-
----
-
-## 🔐 Privacy-First Design (Hedera + ZKPs)
-
-### **Zero-Knowledge Proofs (Complete Privacy)**
-
-**How ZKPs Enable Privacy**:
-```
-Traditional Big Tech:
-YouTube watches video → YouTube server logs:
-  {user_id: 123, video: "weight loss secrets", timestamp: 2025-01-15 3:45pm, 
-   location: Manhattan, device: iPhone12, ISP: Verizon, ...}
-Sold to: Advertisers, data brokers, insurance companies
-Privacy: DESTROYED
-
-Kai with ZKPs:
-User watches video → Device generates ZK proof:
-  {proof_of_watch_15_min: 0x8a7f2c..., quality_score_hash: 0x9d1e4b...}
-Proof sent to Hedera → Smart contract verifies:
-  ✓ Proof valid (watch occurred)
-  ✗ Cannot extract: video title, timestamp, location, device, ISP
-User identity: Hidden (only wallet address, not linked to real name)
-Result: Earn rewards with COMPLETE privacy
-```
-
-**zkBadges (Credentials Without Exposure)**:
-```
-Traditional credential:
-Employer sees: "Graduate of Stanford University, 4.0 GPA"
-Problem: Implies wealth, education level, background
-Used for: Discrimination, targeted advertising
-
-Kai zkBadge approach:
-Badge: "Educational Content Enthusiast"
-Badge reveals: "Watched 100+ hours of educational videos"
-Badge hides: Which videos, topics, dates, your name, location
-Usage: Shows you're engaged learner without exposing privacy
-Benefits: Unlock special quests, exclusive creator content, earn bonuses
-Verification: Hedera ledger cryptographically proves badge legitimacy (cannot fake)
-```
-
-**zkBadge Examples**:
-```
-Badge 1: "Health Conscious"
-├─ Proof: Watched 50+ health/fitness videos (>100 hours)
-├─ Benefit: +10% rewards on health creator engagement
-└─ Privacy: Nobody knows which health topics you care about
-
-Badge 2: "Creator Supporter"
-├─ Proof: Tipped 100+ creators (total >1,000 GAMI)
-├─ Benefit: +5% rewards on tipping, exclusive creator events
-└─ Privacy: Nobody knows which creators you support
-
-Badge 3: "Platform Legend"
-├─ Proof: Engaged consistently for 1+ year (no breaks >7 days)
-├─ Benefit: 2x engagement multiplier, governance voting
-└─ Privacy: Nobody knows your engagement history details
-
-Badge 4: "Early Adopter"
-├─ Proof: Joined Kai in first 100K users
-├─ Benefit: Lifetime +5% bonus on all engagement
-└─ Privacy: Only proves early adoption, not detailed timeline
-```
-
-### **ERC-4337 Account Abstraction (Gasless Onboarding)**
-
-**Problem**: Gas fees kill micropayments
-- Traditional blockchain: 0.1 GAMI reward costs $0.50 gas (worthless after fees)
-- **Solution**: Account abstraction (users don't pay gas; protocol absorbs costs)
-
-**How ERC-4337 Works on Hedera**:
-```
-User earns 0.1 GAMI for a like
-Traditional: Gas fee = $0.50 (90% of reward lost!)
-With ERC-4337:
-├─ Kai protocol pays gas on user's behalf
-├─ User receives: 0.1 GAMI (100% of reward, no gas deduction)
-├─ Protocol subsidizes gas from engagement fees
-└─ Business model: Protocol makes 10% on rewards (more than gas cost)
-
-Result:
-├─ Users earn microrewards guilt-free (full value received)
-├─ Protocol sustainable (3% profit margin per engagement)
-└─ Hedera advantage: Gas so cheap (~$0.000001) that subsidies trivial
-```
-
-**Account Recovery (No Seed Phrases)**:
-```
-Traditional wallet: Lose seed phrase → Lose account forever
-Kai on Hedera (social recovery):
-├─ User creates account (linked to phone number + email)
-├─ Nominates 3 friends as "recovery contacts"
-├─ If phone/email lost:
-│  ├─ User requests recovery
-│  ├─ Sends recovery request to 3 contacts
-│  ├─ Contacts receive notification on Hedera
-│  ├─ 2 of 3 contacts approve (via phone OTP)
-│  ├─ Hedera smart contract executes recovery (multi-sig)
-│  └─ User regains account access (new phone, new email)
-└─ Result: Account recovery via trusted friends (no seed phrases needed)
-```
-
----
-
-## 🌍 Local & Global Use (Hedera-Enabled)
-
-### **Offline-First Design** (Rural Compatibility)
-
-**Offline Engagement Logging** (SQLite):
-```
-User in rural area (no internet):
-├─ Opens Kai app
-├─ App works offline (all data stored locally)
-├─ Watches downloaded video
-├─ Engagement recorded locally (timestamp, duration, quality)
-├─ When online (WiFi detected):
-│  ├─ App syncs engagement records to Hedera
-│  ├─ Smart contract verifies all offline records
-│  ├─ GAMI minted for all verified engagement
-│  └─ Settlement in single batch transaction (efficient)
-└─ Result: User can earn offline; rewards synced when possible
-
-Sync process:
-├─ Batch size: 100–1,000 engagements per sync
-├─ Batch cost: ~0.001 HBAR (negligible)
-├─ Verification: Hedera timestamp proves canonical order
-├─ Settlement: Atomic on Hedera (all or nothing)
-```
-
-**Offline USSD Access** (SMS-Based):
-
-```
-User with feature phone (no data plan):
-├─ SMS command: "KAI EARN" → Kai gateway
-├─ Response: "Daily engagement streak: 14 days, Total GAMI: 150"
-├─ SMS command: "KAI WATCH 1" → Log video engagement (watched video 1)
-├─ Response: "Logged! Earned 3.96 GAMI. Total: 153.96"
-├─ SMS command: "KAI WITHDRAW 100 USDT" → Convert to mobile money
-├─ Response: "Approved. M-Pesa 100 USDT sent to +254700000000"
-├─ Verification: After 1-2 minutes, money in mobile money account
-└─ Result: Earn GAMI, withdraw cash via SMS (complete offline workflow)
-
-Hedera backend:
-├─ SMS gateway: Twilio (securely forwards commands to Hedera nodes)
-├─ Command processor: Parse SMS, validate user, execute smart contract
-├─ Response: Generate SMS response within seconds
-└─ Cost: ~$0.005 per SMS (subsidized by protocol, profit margin maintained)
-```
-
-### **Community Sync Hubs** (Decentralized Verification)
-
-**Problem**: In remote areas, users cannot verify engagement alone (no internet)
-**Solution**: Community verification hubs (trusted local leaders verify engagement)
-
-```
-Community Sync Hub (village health center):
-├─ Hub supervisor: Local teacher/health worker (trained on Kai protocol)
-├─ Equipment: Basic laptop + internet connection (costs $100–500)
-├─ Hub subsidy: Protocol pays $50–100/month to maintainer (helps local economy)
-└─ Purpose: Verify engagements, sync data, help with onboarding
-
-Usage workflow:
-├─ User goes to sync hub
-├─ Logs into Kai app on hub's computer
-├─ Uploads offline engagement records
-├─ Hub supervisor spot-checks (verifies few records are legitimate)
-├─ Supervisor approves batch (multi-sig governance required)
-├─ Batch submitted to Hedera
-├─ Settlement: User receives GAMI within minutes
-└─ Result: Trust-minimized verification (community oversight prevents fraud)
-
-Benefits for community:
-├─ Hub supervisor earns $50–100/month
-├─ Community gets access to financial platform
-├─ Users can earn without leaving village
-├─ Local economic development (protocol revenue shared locally)
-```
-
-### **Localized Quests** (Cultural Relevance)
-
-**Kenya-Specific Quests**:
-```
-Quest: "Learn Swahili Financial Literacy"
-├─ Content: Videos about saving, investing, mobile money
-├─ Language: Swahili (native language, higher engagement)
-├─ Reward: 50 GAMI (+Kenya region bonus 5%)
-├─ Alignment: Ties to KAI financial education mission
-└─ Result: Users learn while earning
-
-Quest: "Support Local African Creators"
-├─ Objective: Watch 10 content creators from Kenya, Nigeria, Ghana, etc.
-├─ Reward: 100 GAMI
-├─ Algorithm tweak: Boosts African creators in recommendation feed
-└─ Result: Discovery fairness (not just Western creators promoted)
-
-Quest: "Farmer's Knowledge"
-├─ Content: Agricultural best practices, crop protection, climate adaptation
-├─ Audience: Targeting farmers (80% of African agriculture)
-├─ Reward: 100 GAMI (higher than general content—recognition of importance)
-├─ Integration: Connects to KAI Farmer Protection Insurance Pool
-└─ Result: Users build knowledge while earning; eligible for insurance
-```
-
-**Nigeria-Specific Quests**:
-```
-Quest: "Build Your Business"
-├─ Content: Entrepreneurship, SME financing, supply chain management
-├─ Language: English + Pidgin (accessibility)
-├─ Reward: 150 GAMI (higher due to business relevance)
-├─ Integration: Graduates can access KAI SME lending pool
-└─ Result: Earned GAMI → Business capital → Economic empowerment
-
-Quest: "Naija Creator Power"
-├─ Objective: Support Nigerian creators (Afrobeats, comedy, tech creators)
-├─ Reward: 75 GAMI
-├─ Impact: Boosts Nigerian creator economy visibility
-└─ Result: Nigerian talent gets global platform (Kai SocialFi audience)
-```
-
----
-
-## 📊 Metrics & KPIs (Hedera-Transparent)
-
-### **User Engagement Metrics** (On-Chain Verification)
-
-**Active Monthly Users (MAU)**
-- Month 1: 100,000 MAU (beta phase)
-- Month 6: 1M MAU (African launch)
-- Year 1: 5M MAU
-- Year 2: 20M MAU
-- Year 3: 50M+ MAU
-- **Verification**: Hedera ledger counts unique wallet addresses with engagement in past 30 days
-
-**Average GAMI Earned per User**
-- Day 1 user: $1–5 daily (~$30–$150/month)
-- Day 30 user: $2–8 daily (~$60–$240/month, improved due to leveling)
-- Day 365 user: $5–20 daily (~$150–$600/month, bonuses + streaks)
-- **Verification**: Smart contract calculates total GAMI minted per user per month (auditable)
-
-**Creator Revenue Growth**
-- Month 1: Average creator earns $100–$500/month
-- Month 6: Average creator earns $500–$2,000/month
-- Year 1: Top 1,000 creators earning $10K–$500K/month
-- **Verification**: All creator payouts recorded on Hedera ledger (transparent)
-
-### **Adoption & Network Metrics**
-
-**Verifiable Quests Completed**
-- Month 1: 500K quests completed (500K MAU × 5 quests/user)
-- Month 6: 30M quests completed (1M MAU × 30 quests/user over period)
-- Year 1: 200M+ quests completed
-- **Verification**: Hedera smart contracts record every completed quest (immutable)
-
-**Governance Participation Rate**
-- Target: 20%+ of token holders voting on proposals
-- Month 1: 50,000 KAI holders, 10,000 votes = 20% participation
-- Year 1: 1M KAI holders, 200K votes = 20% participation
-- **Verification**: All votes recorded on Hedera (transparent voting history)
-
-**Creator-to-User Ratio**
-- Target: 1 creator per 100 users (healthy ecosystem)
-- Month 1: 100K creators (100K users would be limit)
-- Year 1: 50K creators (5M users = healthy ratio)
-- **Verification**: Hedera tracks creator accounts vs. regular users
-
----
-
-## 🔄 Competitive Advantages (Hedera-Native)
-
-### **Comparison Matrix**
-
-| Feature | Big Tech (YouTube, TikTok) | Brave Browser | StepN | **Kai on Hedera** |
-|---------|---|---|---|---|
-| **Monetized Actions** | Videos only | Ads only | Walking only | **All digital + fitness** |
-| **User cut** | 0–10% | 30% | ~50% | **60%** |
-| **Creator cut** | 10–20% (after platform fees) | 0% | ~30% | **35% direct** |
-| **Payment speed** | 30–60 days | Monthly | Real-time | **3-6 seconds** |
-| **Privacy** | Invasive tracking | Limited | Basic | **Complete (ZKPs)** |
-| **Creator control** | Algorithm black box | No control | No control | **Full control** |
-| **Cross-platform** | Siloed | Browser-only | App-only | **Universal** |
-| **Settlement** | Centralized (reversible) | Centralized | Blockchain (non-reversible) | **Deterministic Hedera** |
-| **Gas efficiency** | N/A | N/A | $1–10 per transaction | **$0.00001 per transaction** |
-| **MEV risk** | N/A | N/A | Yes (front-running) | **No (deterministic)** |
-| **Global access** | Geo-restricted | Limited | IP-blocked in some regions | **Truly global** |
-
-### **Why Hedera Matters for SocialFi**
-
-```
-Problem: Micropayments ($0.01–$1) impossible on expensive chains
-- Ethereum: Gas = $1–50, making 90% of micropayments uneconomical
-- Solana: Gas = $0.001, but high volatility means settlement risk
-- Bitcoin: Not designed for payments, settlement = 10 minutes
-
-Solution: Hedera SocialFi
-├─ Gas cost: ~$0.000001 per transaction
-├─ Settlement: 3-6 seconds (deterministic finality)
-├─ MEV: Impossible (deterministic ordering)
-└─ Result: Micropayments ($0.01–$1) fully economical
-
-Example: User earns 0.1 GAMI ($0.01 reward)
-├─ Traditional chain: 0.1 GAMI earns, $0.50 gas cost = user receives $0
-├─ Hedera: 0.1 GAMI earns, $0.000001 gas cost = user receives $0.01
-└─ Difference: Makes micropayments viable at scale
-```
-
----
-
-## 🧠 Vision for the Attention Economy
-
-### **The Promise**
-
-> **"Kai is not just a SocialFi platform. It's a new internet where attention earns, privacy is power, and your scroll has value."**
-
-**From Extraction to Empowerment**:
-
-```
-Traditional Big Tech model:
-Your attention → Platform captures (0% for you)
-Your data → Sold to advertisers
-Your time → Monetized, you get nothing
-Result: $8 Trillion extracted from users annually, $0 returned
-
-Kai model:
-Your attention → You capture (60%)
-Your data → You control (ZKPs keep private)
-Your time → You monetize directly
-Result: $8 Trillion opportunity → Shared with users (billions earned)
-```
-
-**By 2030, We Envision**:
-
-```
-✓ $GAMI Powers the Reward Economy of Africa and Beyond
-  ├─ 500M+ users earning from attention
-  ├─ $1 Trillion annual value flowing to creators
-  └─ Crypto-native economic system for emerging markets
-
-✓ $KAI Governs the Infrastructure of Digital Equity
-  ├─ DAO manages protocol evolution
-  ├─ Communities decide engagement rules
-  └─ No centralized corporate control
-
-✓ A Billion Users Earning from Their Online Lives—Privately
-  ├─ Every social action monetized
-  ├─ Complete privacy via ZKPs
-  ├─ No Big Tech surveillance
-  └─ True ownership of data and earnings
-
-✓ Platform Sustainability Through Community
-  ├─ Protocol self-funding (engagement fees → operations)
-  ├─ No venture capital ownership (community-owned)
-  └─ Aligned incentives (users, creators, developers all benefit)
-```
-
----
-
-## 🚀 Kai SocialFi Roadmap (Hedera Mainnet)
-
-### **Phase 1: Beta Launch (Month 1–2)**
-- Deploy on Hedera testnet
-- 10,000 beta testers
-- YouTube + Twitter integrations
-- GAMI token launch
-- **Target**: $1M TVL in staking pools, 10M GAMI earned
-
-### **Phase 2: African Launch (Month 3–4)**
-- Hedera mainnet deployment
-- YouTube, TikTok, Twitter integrations
-- USSD + M-Pesa integration
-- Creator Studio launch
-- **Target**: 1M users, 50M GAMI earned
-
-### **Phase 3: Global Expansion (Month 5–6)**
-- Farcaster, Lens integrations
-- Web3 creator support
-- Advanced quests + challenges
-- Governance DAO live
-- **Target**: 5M users, 200M GAMI earned
-
-### **Phase 4: Ecosystem (Month 7–12)**
-- Insurance pool integration (engagement counts toward premiums)
-- Lending pool integration (GAMI → collateral for SME loans)
-- NFT collections (achievement badges)
-- Creator commerce (sell products directly)
-- **Target**: 20M users, $500M+ TVL across ecosystem
-
----
-
-## Conclusion: The Attention Economy Reimagined
-
-Kai SocialFi on Hedera represents a complete reimagining of the creator economy:
-
-- **From extraction to empowerment**: Users and creators capture value, not platforms
-- **From surveillance to privacy**: ZKPs ensure your data stays private
-- **From delay to instant**: 3-6 second settlement instead of 30-90 days
-- **From centralized to decentralized**: DAO governance, community ownership
-- **From exclusive to inclusive**: Every person globally can earn from their attention
-
-**The result**: A $8 trillion attention economy redistributed to billions of creators and users, powered by Hedera's enterprise-grade infrastructure and deterministic consensus.
-
-> **"Your scroll has value. Your attention matters. Your privacy is sacred. Welcome to Kai—the attention economy, reimagined."**
-
----
-
-*Last Updated: November 2025*
-*Status: Ready for Hedera Mainnet Launch*
-*Next Phase: 1M Beta Users by Q2 2026*
-
-**Kai SocialFi: Where every engagement earns, every creator thrives, and privacy is power.**# KAI SOCIALFI PROTOCOL
-## Monetizing Human Attention—Privately, Fairly, and Creatively on Hedera
+# Kai SocialFi Protocol Whitepaper
+
+**Monetizing Human Attention—Privately, Fairly, and Creatively on Hedera**
+
+**Version:** 1.0  
+**Date:** November 19, 2025  
+**Authors:** Kai Team  
+**Website:** [kaichainfi.com](https://kaichainfi.com)  
+**Contact:** [info@kaichainfi.com](mailto:info@kaichainfi.com)  
 
 ---
 
@@ -522,7 +54,12 @@ Kai is not just a social app—it's the **infrastructure for the attention econo
 
 ---
 
-## ✅ Kai's Solution on Hedera
+## ✅ Kai’s Solution
+
+Kai pays users and creators for verified digital engagement, while:
+- Ensuring **total privacy** through zk-SNARKs
+- Supporting **offline and low-data onboarding**
+- Creating **true ownership** over attention and influence
 
 ### **Total Attention Monetization**
 Every action earns rewards:
@@ -533,7 +70,7 @@ Every action earns rewards:
 - 🏃 **Complete fitness activity**: 5 GAMI (activity verified via encrypted sensor data)
 - 🔄 **Share content**: 2 GAMI (if share drives new users: +10 bonus GAMI)
 
-**Weekly earnings for typical user**: $5–50 worth of GAMI
+**Weekly earnings for typical user**: $5–50 worth of GAMI  
 **Yearly earnings**: $260–$2,600 passive income from scrolling
 
 ### **Fair Creator Compensation**
@@ -559,6 +96,24 @@ Every action earns rewards:
 ---
 
 ## 🧱 Architecture Overview (Hedera-Native)
+
+1. **Client Layer**  
+   Web app (Next.js), mobile (React Native), browser extension (TypeScript)
+
+2. **Agentic AI**  
+   On-device + cloud-based classifiers distinguish quality engagement
+
+3. **ZK Proof Engine**  
+   Proves engagement occurred without revealing data
+
+4. **Smart Contracts**  
+   Manage quests, NFT achievements, and $GAMI distribution
+
+5. **Backend Infrastructure**  
+   Redis, IPFS, Ceramic, GraphQL APIs
+
+6. **Cross-Platform Integration**  
+   YouTube, TikTok, Twitter, Lens, Farcaster + ERC-4337 for gasless onboarding
 
 ### **1. Client Layer (Universal Access)**
 - **Web App**: Next.js frontend (desktop/tablet)
@@ -779,9 +334,36 @@ contract GAMIStaking {
 
 ---
 
-## 💡 How It Works: Step-by-Step
+## 💡 How It Works
 
-### **Phase 1: Onboarding (60 seconds)**
+### **1. Onboarding**  
+Users connect their wallet via mobile, browser, or USSD. No prior crypto experience needed.
+
+### **2. Engagement Tracking**  
+Agentic AI classifies:
+- Reading time, scroll depth, share/like/comment intent
+- Fitness goals and motion data
+- Video watch quality and learning patterns
+
+### **3. Zero-Knowledge Proof Generation**  
+Each action is converted to a ZK proof:
+- **Proves:** “User completed 2 hours of health-related video”
+- **Hides:** What was watched, time of day, user identity
+
+### **4. Reward Distribution**  
+Smart contracts verify proofs and distribute:
+- **$GAMI tokens** for all engagement
+- **Bonuses** for educational, health, or creator-based content
+- **NFT badges** and XP for achievements
+- **Streak multipliers** and social challenges
+
+### **5. Gamified Progression**  
+Kai uses RPG-style leveling and quests:
+- XP unlocks premium features
+- Quests offer dynamic $GAMI bonuses
+- Community challenges drive viral growth
+
+**Phase 1: Onboarding (60 seconds)**
 
 **Traditional SocialFi**:
 1. Install app
@@ -812,7 +394,7 @@ User ready to earn immediately
 → User can withdraw to M-Pesa or USDC same day
 ```
 
-### **Phase 2: Engagement Tracking (Continuous)**
+**Phase 2: Engagement Tracking (Continuous)**
 
 **Real-Time Tracking**:
 - User watches TikTok video (15 minutes)
@@ -857,7 +439,7 @@ Plus: Quality bonuses, referral rewards, social challenges
 Realistic annual earnings: $1,000–$5,000+ for engaged user
 ```
 
-### **Phase 3: Zero-Knowledge Proof Generation**
+**Phase 3: Zero-Knowledge Proof Generation**
 
 **Privacy-First Verification**:
 
@@ -888,7 +470,7 @@ Privacy preserved: Complete (100% opaque to Big Tech, government, advertisers)
 - **Verification time**: <100ms on Hedera smart contract
 - **Security**: SNARK-resistant (proven by MIT, Stanford cryptographers)
 
-### **Phase 4: Reward Distribution (Atomic Settlement)**
+**Phase 4: Reward Distribution (Atomic Settlement)**
 
 **Deterministic Execution on Hedera** (No MEV, No Delays):
 
@@ -933,11 +515,9 @@ Hedera ledger proves every payment
 No reversals, no disputes, no delays
 ```
 
-### **Phase 5: Gamified Progression (Engagement Loops)**
+**Phase 5: Gamified Progression (Engagement Loops)**
 
-**RPG-Style Leveling System**:
-
-**User Level Progression**:
+**RPG-Style Level Progression**:
 ```
 Level 1 (0–100 GAMI earned): "Curious"
 ├─ Earn rate: 1x multiplier
@@ -1026,9 +606,13 @@ Incentivizes: Daily habit formation, long-term user retention
 
 ---
 
-## 💰 Token Structure (Hedera-Optimized)
+## 💰 Token Structure
 
 ### **$GAMI — The Reward Token**
+- Infinite supply, algorithmically controlled
+- Earned via verified activity
+- Stakable for access to deeper rewards and creator tools
+- Used in SocialFi pools and NFT quests
 
 **Supply Model**: Algorithmic (not fixed)
 - Initial supply: 10 Billion GAMI
@@ -1064,7 +648,10 @@ Governance participation: 10 GAMI per vote (capped 50 GAMI/month)
 - Expected appreciation: 10–50% annually (as user base grows)
 - **Advantage on Hedera**: MEV-free pricing (deterministic execution means fair prices)
 
-### **$KAI — Governance & Ecosystem Token**
+### **$KAI — The Governance & Ecosystem Token**
+- Fixed supply
+- Used for protocol voting, tipping, campaign fees, and premium services
+- Powers gas (KAI CENTS), insurance pools, and staking vaults
 
 **Supply**: 100 Million KAI (fixed cap)
 **Distribution**:
@@ -1105,9 +692,15 @@ Proposal 3: "Add TikTok creator API integration"
 
 ---
 
-## 🎯 Creator Studio Features (Hedera-Powered)
+## 🎯 Creator Studio Features
 
-### **Creator Dashboard** (Full Control)
+- Launch tokenized quests: “Stream my content 3x/week to earn 500 $GAMI”
+- Create engagement challenges: “Top 50 commenters get NFT badge + tips”
+- Automated content distribution via N8N workflows
+- Cross-platform analytics and tipping integration
+- Set up ad campaigns with privacy-respecting targeting
+
+**Creator Dashboard** (Full Control)
 
 **Content Configuration**:
 ```
@@ -1175,4 +768,502 @@ Challenge: "Live Stream Reaction Competition"
 ├─ Scoring: 
 │  ├─ Watch time: 2 GAMI per 5 min
 │  ├─ Comments: 1 GAMI each (quality-scored by AI)
-│
+│  └─ Bonus: +5x multiplier for substantive live engagement
+├─ Prize pool: 500 GAMI (creator's sponsorship budget)
+└─ Payout: Deterministic scoring on Hedera (no disputes)
+```
+
+**Automated Content Distribution** (N8N Workflows):
+```
+Creator workflow: "Multi-platform posting"
+├─ Step 1: Creator records video on device
+├─ Step 2: Video uploaded to IPFS (decentralized storage)
+├─ Step 3: N8N trigger: Post to YouTube (via API)
+├─ Step 4: N8N trigger: Post to TikTok (via API)
+├─ Step 5: N8N trigger: Post to Twitter/X (via API)
+├─ Step 6: N8N trigger: Create Kai SocialFi quest (auto-populate details)
+├─ Step 7: Hedera oracle: Monitor views across all platforms
+└─ Step 8: Auto-calculate rewards (aggregated earnings from all platforms)
+
+Result: Single upload → 5 platforms → Unified GAMI earnings
+Timeline: <1 minute to distribute everywhere
+```
+
+**Cross-Platform Analytics Dashboard**:
+```
+Creator analytics (unified view):
+├─ Total views: 150K (YouTube: 80K, TikTok: 50K, Twitter: 20K)
+├─ Total engagement: 5,000 interactions
+│  ├─ Likes: 2,000 (0.1 GAMI each)
+│  ├─ Comments: 1,500 (0.5 GAMI each)
+│  ├─ Shares: 500 (2 GAMI each)
+│  └─ Watch time: 2,500 hours (3 GAMI per 15 min)
+├─ Total GAMI earned: 7,500 GAMI (~$750 at $0.10/GAMI)
+├─ Creator share: 2,625 GAMI (35%, earned within 3-6 seconds)
+├─ Payout history: All transactions on Hedera ledger (transparent)
+└─ Revenue forecast: $7,500+ monthly at current growth
+
+Predictive analytics:
+├─ Trending topics: Which content types earn most
+├─ Optimal posting times: When audience most engaged
+├─ Audience demographics: Interest categories (health, fitness, education, etc.)
+├─ Competitor analysis: How you rank vs. other creators
+└─ Recommendation: "Health videos 2.3x higher engagement—consider focusing more"
+```
+
+**Tipping & Direct Support**:
+```
+Fan-to-Creator Direct Payment:
+├─ Fan sees creator video
+├─ Fan clicks "Send Tip" (in-app button)
+├─ Tip options: 1 GAMI, 5 GAMI, 10 GAMI, 50 GAMI, custom amount
+├─ Fan sends 10 GAMI directly to creator
+├─ Settlement: Deterministic Hedera transfer (3-6 seconds)
+├─ Creator receives: 10 GAMI + notification
+└─ Fan receives: Special "Supporter" badge (shows in comments)
+
+Creator Membership/Subscription:
+├─ Creator creates tier: "Premium access ($5/month in GAMI)"
+├─ Subscriber gets:
+│  ├─ Access to exclusive videos
+│  ├─ Early access to new content (24 hours early)
+│  ├─ Direct messaging with creator
+│  └─ Special comment badge ("Premium Supporter")
+├─ Creator earns: $5 per subscriber per month
+├─ Settlement: Monthly on first of month (Hedera atomic execution)
+└─ Expected: Top creators earn $50K–$500K/month from subscriptions
+```
+
+---
+
+## 🔐 Privacy-First Design (Hedera + ZKPs)
+
+### **Zero-Knowledge Proofs (Complete Privacy)**
+
+**How ZKPs Enable Privacy**:
+```
+Traditional Big Tech:
+YouTube watches video → YouTube server logs:
+  {user_id: 123, video: "weight loss secrets", timestamp: 2025-01-15 3:45pm, 
+   location: Manhattan, device: iPhone12, ISP: Verizon, ...}
+Sold to: Advertisers, data brokers, insurance companies
+Privacy: DESTROYED
+
+Kai with ZKPs:
+User watches video → Device generates ZK proof:
+  {proof_of_watch_15_min: 0x8a7f2c..., quality_score_hash: 0x9d1e4b...}
+Proof sent to Hedera → Smart contract verifies:
+  ✓ Proof valid (watch occurred)
+  ✗ Cannot extract: video title, timestamp, location, device, ISP
+User identity: Hidden (only wallet address, not linked to real name)
+Result: Earn rewards with COMPLETE privacy
+```
+
+**zkBadges (Credentials Without Exposure)**:
+```
+Traditional credential:
+Employer sees: "Graduate of Stanford University, 4.0 GPA"
+Problem: Implies wealth, education level, background
+Used for: Discrimination, targeted advertising
+
+Kai zkBadge approach:
+Badge: "Educational Content Enthusiast"
+Badge reveals: "Watched 100+ hours of educational videos"
+Badge hides: Which videos, topics, dates, your name, location
+Usage: Shows you're engaged learner without exposing privacy
+Benefits: Unlock special quests, exclusive creator content, earn bonuses
+Verification: Hedera ledger cryptographically proves badge legitimacy (cannot fake)
+```
+
+**zkBadge Examples**:
+```
+Badge 1: "Health Conscious"
+├─ Proof: Watched 50+ health/fitness videos (>100 hours)
+├─ Benefit: +10% rewards on health creator engagement
+└─ Privacy: Nobody knows which health topics you care about
+
+Badge 2: "Creator Supporter"
+├─ Proof: Tipped 100+ creators (total >1,000 GAMI)
+├─ Benefit: +5% rewards on tipping, exclusive creator events
+└─ Privacy: Nobody knows which creators you support
+
+Badge 3: "Platform Legend"
+├─ Proof: Engaged consistently for 1+ year (no breaks >7 days)
+├─ Benefit: 2x engagement multiplier, governance voting
+└─ Privacy: Nobody knows your engagement history details
+
+Badge 4: "Early Adopter"
+├─ Proof: Joined Kai in first 100K users
+├─ Benefit: Lifetime +5% bonus on all engagement
+└─ Privacy: Only proves early adoption, not detailed timeline
+```
+
+### **ERC-4337 Account Abstraction (Gasless Onboarding)**
+
+**Problem**: Gas fees kill micropayments
+- Traditional blockchain: 0.1 GAMI reward costs $0.50 gas (worthless after fees)
+- **Solution**: Account abstraction (users don't pay gas; protocol absorbs costs)
+
+**How ERC-4337 Works on Hedera**:
+```
+User earns 0.1 GAMI for a like
+Traditional: Gas fee = $0.50 (90% of reward lost!)
+With ERC-4337:
+├─ Kai protocol pays gas on user's behalf
+├─ User receives: 0.1 GAMI (100% of reward, no gas deduction)
+├─ Protocol subsidizes gas from engagement fees
+└─ Business model: Protocol makes 10% on rewards (more than gas cost)
+
+Result:
+├─ Users earn microrewards guilt-free (full value received)
+├─ Protocol sustainable (3% profit margin per engagement)
+└─ Hedera advantage: Gas so cheap (~$0.000001) that subsidies trivial
+```
+
+**Account Recovery (No Seed Phrases)**:
+```
+Traditional wallet: Lose seed phrase → Lose account forever
+Kai on Hedera (social recovery):
+├─ User creates account (linked to phone number + email)
+├─ Nominates 3 friends as "recovery contacts"
+├─ If phone/email lost:
+│  ├─ User requests recovery
+│  ├─ Sends recovery request to 3 contacts
+│  ├─ Contacts receive notification on Hedera
+│  ├─ 2 of 3 contacts approve (via phone OTP)
+│  ├─ Hedera smart contract executes recovery (multi-sig)
+│  └─ User regains account access (new phone, new email)
+└─ Result: Account recovery via trusted friends (no seed phrases needed)
+```
+
+---
+
+## 🌍 Local & Global Use (Hedera-Enabled)
+
+### **Offline-First Design** (Rural Compatibility)
+
+**Offline Engagement Logging** (SQLite):
+```
+User in rural area (no internet):
+├─ Opens Kai app
+├─ App works offline (all data stored locally)
+├─ Watches downloaded video
+├─ Engagement recorded locally (timestamp, duration, quality)
+├─ When online (WiFi detected):
+│  ├─ App syncs engagement records to Hedera
+│  ├─ Smart contract verifies all offline records
+│  ├─ GAMI minted for all verified engagement
+│  └─ Settlement in single batch transaction (efficient)
+└─ Result: User can earn offline; rewards synced when possible
+
+Sync process:
+├─ Batch size: 100–1,000 engagements per sync
+├─ Batch cost: ~0.001 HBAR (negligible)
+├─ Verification: Hedera timestamp proves canonical order
+├─ Settlement: Atomic on Hedera (all or nothing)
+```
+
+**Offline USSD Access** (SMS-Based):
+```
+User with feature phone (no data plan):
+├─ SMS command: "KAI EARN" → Kai gateway
+├─ Response: "Daily engagement streak: 14 days, Total GAMI: 150"
+├─ SMS command: "KAI WATCH 1" → Log video engagement (watched video 1)
+├─ Response: "Logged! Earned 3.96 GAMI. Total: 153.96"
+├─ SMS command: "KAI WITHDRAW 100 USDT" → Convert to mobile money
+├─ Response: "Approved. M-Pesa 100 USDT sent to +254700000000"
+├─ Verification: After 1-2 minutes, money in mobile money account
+└─ Result: Earn GAMI, withdraw cash via SMS (complete offline workflow)
+
+Hedera backend:
+├─ SMS gateway: Twilio (securely forwards commands to Hedera nodes)
+├─ Command processor: Parse SMS, validate user, execute smart contract
+├─ Response: Generate SMS response within seconds
+└─ Cost: ~$0.005 per SMS (subsidized by protocol, profit margin maintained)
+```
+
+### **Community Sync Hubs** (Decentralized Verification)
+
+**Problem**: In remote areas, users cannot verify engagement alone (no internet)
+**Solution**: Community verification hubs (trusted local leaders verify engagement)
+
+```
+Community Sync Hub (village health center):
+├─ Hub supervisor: Local teacher/health worker (trained on Kai protocol)
+├─ Equipment: Basic laptop + internet connection (costs $100–500)
+├─ Hub subsidy: Protocol pays $50–100/month to maintainer (helps local economy)
+└─ Purpose: Verify engagements, sync data, help with onboarding
+
+Usage workflow:
+├─ User goes to sync hub
+├─ Logs into Kai app on hub's computer
+├─ Uploads offline engagement records
+├─ Hub supervisor spot-checks (verifies few records are legitimate)
+├─ Supervisor approves batch (multi-sig governance required)
+├─ Batch submitted to Hedera
+├─ Settlement: User receives GAMI within minutes
+└─ Result: Trust-minimized verification (community oversight prevents fraud)
+
+Benefits for community:
+├─ Hub supervisor earns $50–100/month
+├─ Community gets access to financial platform
+├─ Users can earn without leaving village
+├─ Local economic development (protocol revenue shared locally)
+```
+
+### **Localized Quests** (Cultural Relevance)
+
+**Kenya-Specific Quests**:
+```
+Quest: "Learn Swahili Financial Literacy"
+├─ Content: Videos about saving, investing, mobile money
+├─ Language: Swahili (native language, higher engagement)
+├─ Reward: 50 GAMI (+Kenya region bonus 5%)
+├─ Alignment: Ties to KAI financial education mission
+└─ Result: Users learn while earning
+
+Quest: "Support Local African Creators"
+├─ Objective: Watch 10 content creators from Kenya, Nigeria, Ghana, etc.
+├─ Reward: 100 GAMI
+├─ Algorithm tweak: Boosts African creators in recommendation feed
+└─ Result: Discovery fairness (not just Western creators promoted)
+
+Quest: "Farmer's Knowledge"
+├─ Content: Agricultural best practices, crop protection, climate adaptation
+├─ Audience: Targeting farmers (80% of African agriculture)
+├─ Reward: 100 GAMI (higher than general content—recognition of importance)
+├─ Integration: Connects to KAI Farmer Protection Insurance Pool
+└─ Result: Users build knowledge while earning; eligible for insurance
+```
+
+**Nigeria-Specific Quests**:
+```
+Quest: "Build Your Business"
+├─ Content: Entrepreneurship, SME financing, supply chain management
+├─ Language: English + Pidgin (accessibility)
+├─ Reward: 150 GAMI (higher due to business relevance)
+├─ Integration: Graduates can access KAI SME lending pool
+└─ Result: Earned GAMI → Business capital → Economic empowerment
+
+Quest: "Naija Creator Power"
+├─ Objective: Support Nigerian creators (Afrobeats, comedy, tech creators)
+├─ Reward: 75 GAMI
+├─ Impact: Boosts Nigerian creator economy visibility
+└─ Result: Nigerian talent gets global platform (Kai SocialFi audience)
+```
+
+---
+
+## 📊 Metrics & KPIs (Hedera-Transparent)
+
+### **User Engagement Metrics** (On-Chain Verification)
+
+**Active Monthly Users (MAU)**
+- Month 1: 100,000 MAU (beta phase)
+- Month 6: 1M MAU (African launch)
+- Year 1: 5M MAU
+- Year 2: 20M MAU
+- Year 3: 50M+ MAU
+- **Verification**: Hedera ledger counts unique wallet addresses with engagement in past 30 days
+
+**Average GAMI Earned per User**
+- Day 1 user: $1–5 daily (~$30–$150/month)
+- Day 30 user: $2–8 daily (~$60–$240/month, improved due to leveling)
+- Day 365 user: $5–20 daily (~$150–$600/month, bonuses + streaks)
+- **Verification**: Smart contract calculates total GAMI minted per user per month (auditable)
+
+**Creator Revenue Growth**
+- Month 1: Average creator earns $100–$500/month
+- Month 6: Average creator earns $500–$2,000/month
+- Year 1: Top 1,000 creators earning $10K–$500K/month
+- **Verification**: All creator payouts recorded on Hedera ledger (transparent)
+
+### **Adoption & Network Metrics**
+
+**Verifiable Quests Completed**
+- Month 1: 500K quests completed (500K MAU × 5 quests/user)
+- Month 6: 30M quests completed (1M MAU × 30 quests/user over period)
+- Year 1: 200M+ quests completed
+- **Verification**: Hedera smart contracts record every completed quest (immutable)
+
+**Governance Participation Rate**
+- Target: 20%+ of token holders voting on proposals
+- Month 1: 50,000 KAI holders, 10,000 votes = 20% participation
+- Year 1: 1M KAI holders, 200K votes = 20% participation
+- **Verification**: All votes recorded on Hedera (transparent voting history)
+
+**Creator-to-User Ratio**
+- Target: 1 creator per 100 users (healthy ecosystem)
+- Month 1: 100K creators (100K users would be limit)
+- Year 1: 50K creators (5M users = healthy ratio)
+- **Verification**: Hedera tracks creator accounts vs. regular users
+
+---
+
+## 🔄 Competitive Advantages (Hedera-Native)
+
+### **Comparison Matrix**
+
+| Feature | Big Tech (YouTube, TikTok) | Brave Browser | StepN | **Kai on Hedera** |
+|---------|---|---|---|---|
+| **Monetized Actions** | Videos only | Ads only | Walking only | **All digital + fitness** |
+| **User cut** | 0–10% | 30% | ~50% | **60%** |
+| **Creator cut** | 10–20% (after platform fees) | 0% | ~30% | **35% direct** |
+| **Payment speed** | 30–60 days | Monthly | Real-time | **3-6 seconds** |
+| **Privacy** | Invasive tracking | Limited | Basic | **Complete (ZKPs)** |
+| **Creator control** | Algorithm black box | No control | No control | **Full control** |
+| **Cross-platform** | Siloed | Browser-only | App-only | **Universal** |
+| **Settlement** | Centralized (reversible) | Centralized | Blockchain (non-reversible) | **Deterministic Hedera** |
+| **Gas efficiency** | N/A | N/A | $1–10 per transaction | **$0.00001 per transaction** |
+| **MEV risk** | N/A | N/A | Yes (front-running) | **No (deterministic)** |
+| **Global access** | Geo-restricted | Limited | IP-blocked in some regions | **Truly global** |
+
+### **Why Hedera Matters for SocialFi**
+
+```
+Problem: Micropayments ($0.01–$1) impossible on expensive chains
+- Ethereum: Gas = $1–50, making 90% of micropayments uneconomical
+- Solana: Gas = $0.001, but high volatility means settlement risk
+- Bitcoin: Not designed for payments, settlement = 10 minutes
+
+Solution: Hedera SocialFi
+├─ Gas cost: ~$0.000001 per transaction
+├─ Settlement: 3-6 seconds (deterministic finality)
+├─ MEV: Impossible (deterministic ordering)
+└─ Result: Micropayments ($0.01–$1) fully economical
+
+Example: User earns 0.1 GAMI ($0.01 reward)
+├─ Traditional chain: 0.1 GAMI earns, $0.50 gas cost = user receives $0
+├─ Hedera: 0.1 GAMI earns, $0.000001 gas cost = user receives $0.01
+└─ Difference: Makes micropayments viable at scale
+```
+
+---
+
+## 🧠 Vision
+
+> “Kai is not just a SocialFi platform. It’s a new internet where attention earns, privacy is power, and your scroll has value.”
+
+We envision:
+- **$GAMI** powering the reward economy of Africa and beyond
+- **$KAI** governing the infrastructure of digital equity
+- A billion users earning from their online lives—privately
+
+**From Extraction to Empowerment**:
+
+```
+Traditional Big Tech model:
+Your attention → Platform captures (0% for you)
+Your data → Sold to advertisers
+Your time → Monetized, you get nothing
+Result: $8 Trillion extracted from users annually, $0 returned
+
+Kai model:
+Your attention → You capture (60%)
+Your data → You control (ZKPs keep private)
+Your time → You monetize directly
+Result: $8 Trillion opportunity → Shared with users (billions earned)
+```
+
+**By 2030, We Envision**:
+
+```
+✓ $GAMI Powers the Reward Economy of Africa and Beyond
+  ├─ 500M+ users earning from attention
+  ├─ $1 Trillion annual value flowing to creators
+  └─ Crypto-native economic system for emerging markets
+
+✓ $KAI Governs the Infrastructure of Digital Equity
+  ├─ DAO manages protocol evolution
+  ├─ Communities decide engagement rules
+  └─ No centralized corporate control
+
+✓ A Billion Users Earning from Their Online Lives—Privately
+  ├─ Every social action monetized
+  ├─ Complete privacy via ZKPs
+  ├─ No Big Tech surveillance
+  └─ True ownership of data and earnings
+
+✓ Platform Sustainability Through Community
+  ├─ Protocol self-funding (engagement fees → operations)
+  ├─ No venture capital ownership (community-owned)
+  └─ Aligned incentives (users, creators, developers all benefit)
+```
+
+---
+
+## 🚀 Kai SocialFi Roadmap (Hedera Mainnet)
+
+### **Phase 1: Beta Launch (Month 1–2)**
+- Deploy on Hedera testnet
+- 10,000 beta testers
+- YouTube + Twitter integrations
+- GAMI token launch
+- **Target**: $1M TVL in staking pools, 10M GAMI earned
+
+### **Phase 2: African Launch (Month 3–4)**
+- Hedera mainnet deployment
+- YouTube, TikTok, Twitter integrations
+- USSD + M-Pesa integration
+- Creator Studio launch
+- **Target**: 1M users, 50M GAMI earned
+
+### **Phase 3: Global Expansion (Month 5–6)**
+- Farcaster, Lens integrations
+- Web3 creator support
+- Advanced quests + challenges
+- Governance DAO live
+- **Target**: 5M users, 200M GAMI earned
+
+### **Phase 4: Ecosystem (Month 7–12)**
+- Insurance pool integration (engagement counts toward premiums)
+- Lending pool integration (GAMI → collateral for SME loans)
+- NFT collections (achievement badges)
+- Creator commerce (sell products directly)
+- **Target**: 20M users, $500M+ TVL across ecosystem
+
+---
+
+## Conclusion: The Attention Economy Reimagined
+
+Kai SocialFi on Hedera represents a complete reimagining of the creator economy:
+
+- **From extraction to empowerment**: Users and creators capture value, not platforms
+- **From surveillance to privacy**: ZKPs ensure your data stays private
+- **From delay to instant**: 3-6 second settlement instead of 30-90 days
+- **From centralized to decentralized**: DAO governance, community ownership
+- **From exclusive to inclusive**: Every person globally can earn from their attention
+
+**The result**: A $8 trillion attention economy redistributed to billions of creators and users, powered by Hedera's enterprise-grade infrastructure and deterministic consensus.
+
+> **"Your scroll has value. Your attention matters. Your privacy is sacred. Welcome to Kai—the attention economy, reimagined."**
+
+---
+
+*Last Updated: November 19, 2025*  
+*Status: Ready for Hedera Mainnet Launch*  
+*Next Phase: 1M Beta Users by Q2 2026*
+
+**Kai SocialFi: Where every engagement earns, every creator thrives, and privacy is power.**
+
+---
+
+## Resources & Getting Started
+
+**Platform**: [socialfi.kaichainfi.com](https://socialfi.kaichainfi.com)  
+**Documentation**: [docs.kaichainfi.com/socialfi](https://docs.kaichainfi.com/socialfi)  
+**Support**: [support@kaichainfi.com](mailto:support@kaichainfi.com)  
+**Discord**: [discord.gg/kai-socialfi](https://discord.gg/kai-socialfi)  
+**Telegram**: [t.me/kai_socialfi](https://t.me/kai_socialfi)  
+
+**For Creators**:  
+- Email: [creators@kaichainfi.com](mailto:creators@kaichainfi.com)  
+- Partnership Portal: [partners.kaichainfi.com](https://partners.kaichainfi.com)  
+- Integration Guide: [docs.kaichainfi.com/creator-integration](https://docs.kaichainfi.com/creator-integration)  
+
+**For Developers**:  
+- Smart Contract Repo: [github.com/kaichainfi/socialfi-contracts](https://github.com/kaichainfi/socialfi-contracts)  
+- Bounty Program: $100K for security researchers  
+- Integration Grants: $50K for platform API integrations  
+
+**Join the attention revolution. Join Kai on Hedera.**
