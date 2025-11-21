@@ -168,7 +168,7 @@ npm run deploy:mainnet
 
 ### AI/ML
 - **Engine**: Python (TensorFlow, PyTorch)
-- **Agents**: LangChain for agentic AI
+- **Agents**: LangChain and Eliza Plugins with openconvai for agentic AI
 - **Risk Scoring**: Custom ML models
 - **Yield Optimization**: Reinforcement learning
 
