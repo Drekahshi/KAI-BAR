@@ -5,11 +5,11 @@
 
 ## 🔹 Abstract
 
-KAI Chain is a next-generation decentralized financial protocol designed to democratize access to Bitcoin (BTC) and HBAR-based investments across Africa, beginning with Kenya. At its core, KAI seeks to establish a new financial standard—one immune to local currency inflation and economic instability—by anchoring wealth creation to globally scarce, deflationary assets through **Hedera Hashgraph's** industry-leading consensus mechanism.
+KAI Chain is a next-generation decentralized financial protocol designed to democratize access to  BTC.HBAR investments and transition people from the normal web2 banking to web3 banking for prosperity . At its core, KAI seeks to establish a new financial standard—one immune to local currency inflation and economic instability—by anchoring wealth creation to globally scarce, deflationary assets through **Hedera Hashgraph's** industry-leading consensus mechanism.
 
-The protocol introduces a structured suite of products, including tokenized ETFs, programmable trust funds, stablecoins, and DeFi-powered pensions, all engineered to foster passive income, promote long-term financial security, and eliminate poverty through inclusive capital markets. KAI is focused on **BTC and HBAR investing and saving** to achieve its goals, leveraging the power of **BTC.HBAR liquidity pairs** on Hedera. The idea: **Get the best of both worlds—Bitcoin's proven security plus the ability to do DeFi, NFTs, and other crypto applications on the world's fastest, most secure blockchain.**
+The protocol introduces a structured suite of products, including tokenized ETFs, programmable trust funds, stablecoins, and DeFi-powered pensions, all engineered to foster passive income, promote long-term financial security, and eliminate poverty through inclusive capital markets. KAI is focused on **BTC and HBAR investing and saving and transitioning people from web2 to web3 banking on hedera** to achieve its goals, leveraging the power of **BTC.HBAR liquidity pairs** on Hedera. The idea: **Get the best of both worlds—Bitcoin's proven security plus the ability to do DeFi, NFTs, and other crypto applications on the world's fastest, most secure blockchain.**
 
-By integrating agentic AI, zero-knowledge proofs, and smart contracts on Hedera's deterministic consensus layer, KAI Chain enables users to seamlessly invest, stake, insure, and inherit digital assets without reliance on traditional institutions. KAI emphasizes risk-managed investing and over-collateralization, offering users inflation-resistant opportunities that align with global financial trends while being deeply rooted in African realities. Through features like dual staking, tokenization of real-world assets, offline accessibility (e.g., USSD), and Hedera's 3-6 second finality, KAI bridges the Web2–Web3 divide for everyday Africans.
+By integrating agentic AI, zero-knowledge proofs, and smart contracts on Hedera's deterministic consensus layer, KAI Chain enables users to seamlessly invest, stake, insure, and inherit digital assets without reliance on traditional institutions. KAI emphasizes risk-managed investing and over-collateralization, offering users inflation-resistant opportunities that align with global financial trends while being deeply rooted in African realities. Through features like dual staking, tokenization of real-world assets, offline accessibility (e.g., USSD), and Hedera's 3-6 second finality, KAI bridges the Web2–Web3 divide for everyday Africans togive them more wealth generation and retension opportunities.
 
 Ultimately, KAI Chain is not merely a protocol—it is a bold movement to reimagine economic empowerment, deepen security markets, and create intergenerational wealth using Hedera's untapped potential for decentralized finance. KAI represents the next evolution of African finance, where users don't just save money—they actively participate in a decentralized economy that generates passive income through sophisticated DeFi protocols while maintaining full custody of their assets.
 
@@ -57,7 +57,7 @@ With no tools to preserve or transfer wealth across generations, families remain
 
 - **Base Assets ETF (Y-TOKEN)**: **BTC.HBAR liquidity pair** with automated rebalancing for inflation resistance.
 - **Asset Strategy**: Direct exposure to Hedera's native BTC.HBAR pool—the primary on-chain liquidity for Bitcoin on Hedera via Hashport bridge.
-- **DeFi Integration**: Aggregated yield farming across Hedera protocols (Pangolin, Hashport, other DEXs and lending platforms).
+- **DeFi Integration**: Aggregated yield farming across Hedera protocols (Bonzo, Hashport, other DEXs and lending platforms).
 - **Automated Optimization**: Smart contracts and agentic AI shift capital to the highest-yielding, lowest-risk opportunities, leveraging Hedera's deterministic ordering to eliminate MEV losses.
 - **Expected APY**: **22–38%** from BTC.HBAR LP fee generation (0.25–1% per trade) + HBAR validator staking (20–25%) + arbitrage opportunities.
 - **Features**: Flash loan arbitrage powered by Hedera's 3-6 second finality, automated compounding, impermanent loss protection, MEV-resistant execution.
@@ -739,9 +739,9 @@ KAI generates revenue through:
 - **Hashport**: BTC.HBAR liquidity bridge, cross-chain compatibility
 
 **DeFi Protocols**:
-- **Pangolin**: DEX liquidity for KAI token pairs
-- **Aave (Hedera)**: Lending protocol integration for yield farming
-- **Curve Finance (potential)**: Stablecoin liquidity for YBOB-H
+- **Sauceswap**: DEX liquidity for KAI token pairs
+- **Bonzo (Hedera)**: Lending protocol integration for yield farming
+- **Hsuite (potential)**: Stablecoin liquidity for YBOB-H
 
 **Financial Services**:
 - **Paxos**: Regulated stablecoin backing (USDP for reserves)
@@ -872,22 +872,7 @@ KAI generates revenue through:
 
 ---
 
-## 🔹 Team & Advisors
 
-### Leadership Team
-
-**CEO & Co-Founder**: [Name] — Ex-Stripe payments engineer, 10+ years fintech
-**CTO & Co-Founder**: [Name] — Ex-Consensys DeFi developer, Ethereum core contributor
-**Head of Finance**: [Name] — Ex-Venture capitalist, $5B+ fund experience
-**Head of Compliance**: [Name] — Ex-Central Bank regulator, 15+ years financial regulation
-
-### Advisory Board
-
-- Balaji Srinivasan (Founder, 1729)
-- Dr. Kathleen Breitman (Founder, Tezos Foundation)
-- Gavin Wood (Founder, Web3 Foundation)
-- African central bank officials (2–3 members)
-- Leading African entrepreneurs (2–3 members)
 
 ---
 
@@ -896,7 +881,7 @@ KAI generates revenue through:
 ### For Users
 
 **Join KAI's revolution**:
-1. Download the KAI app (iOS, Android, USSD)
+1. Download the KAI dapp (iOS, Android, USSD)
 2. Connect your wallet or create a new one (no KYC required for low limits)
 3. Deposit HBAR or BTC via Hashport bridge
 4. Start earning 18–55% APY instantly
@@ -908,13 +893,8 @@ KAI generates revenue through:
 - Early access to new products
 - Eligibility for KAI token airdrop
 
-### For Developers
 
-**Build on KAI**:
-- Open-source SDK available on GitHub
-- $50M developer fund for apps, integrations, tooling
-- Grants up to $500K for promising projects
-- Hackathon prizes: $100K quarterly
+
 
 ### For Partners
 
@@ -956,37 +936,6 @@ All that's left is for you to join us.
 
 ---
 
-## 🔹 Resources & Getting Started
 
-**Official Links**:
-- Website: www.kaichainfi.com
-- GitHub: github.com/kaichainfi
-- Discord: discord.gg/kaichainfi
-- Twitter: @KaiChainFi
-- Telegram: t.me/kaichainfi
-
-**Documentation**:
-- Smart contract docs: docs.kaichainfi.com
-- Developer guide: dev.kaichainfi.com
-- API reference: api.kaichainfi.com
-- Security audit reports: security.kaichainfi.com
-
-**Support**:
-- Email: support@kaichainfi.com
-- Discord support channel: 24/7 community help
-- Phone: +1-555-KAI-HELP (coming soon)
-- Multilingual support: English, Swahili, Hausa, French, Portuguese
-
-**Learn More**:
-- YouTube tutorials: youtube.com/@KaiChainFi
-- Blog: blog.kaichainfi.com
-- Podcast: "Crypto for Africa" on all platforms
-- Monthly webinars (free community education)
-
----
-
-*Last Updated: November 2025*
-*Status: Mainnet Launch Ready*
-*Next Milestone: 1M Users by Q4 2026*
 
 **Join the revolution. Join KAI on Hedera.**
