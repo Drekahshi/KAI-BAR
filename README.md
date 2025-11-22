@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)](https://github.com/kaichainfi)
 
 ---
-
+youtube video https://youtu.be/DxYEn1aagh0?si=5CGzLUigy74P4w1D
 ## 🌍 Mission
 
 KAI Chain democratizes access to **BTC.HBAR investments** and transitions people from traditional Web2 banking to Web3 banking for prosperity. We're building a complete DeFi ecosystem on **Hedera Hashgraph** that enables African communities to earn **20–55% APY** while maintaining full asset custody.
